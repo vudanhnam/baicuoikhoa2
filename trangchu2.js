@@ -3,7 +3,7 @@ let products = {
     data: [
         {
             name: "LAPTOP GAMING ACER NITRO V",
-            price: "19.990.000Đđ - 23.990.000đ",
+            price: "24.000.000đ",
             image: "https://bizweb.dktcdn.net/100/408/235/products/acer-ra-mat-laptop-gaming-predator-triton-helios-va-acer-nitro-5-da-nang-cap-tech-times-3-2-scaled.jpg?v=1630730896443"
         },
 
