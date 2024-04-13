@@ -1,16 +1,30 @@
 *{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+}
+.menu_menu-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#FF0000;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0 50px;
 }
 #glass {
   font-size: 20px;
   margin-left: 20px;
   margin-top: -0.5px;
-  align-items: flex-end;
   display: flex;
-  
 }
 .dropdown i {
-  margin-top: 20px;
   margin-left: 25px;
 }
 .icon #glass i {
@@ -18,17 +32,7 @@
   padding-left: 10px;
   
 }
-body{
-  width: 100%;
-  height: 100%;
 
-}
-.menu_menu-1 {
-  display: flex;
-  background-color:#FF0000;
-  width: 100%;
-  height: 100%;
-}
 .menu_menu-1 a {
   color: aliceblue;
   font-size: 20px;
@@ -43,7 +47,11 @@ body{
 .trangchu {
   display: flex;
   background-color: #FF0000;
- 
+}
+.bar a{
+  width: 100px;
+  height: 20px;
+  margin-top: 7%;
 }
 button {
   background-color: #000000;
@@ -66,20 +74,30 @@ button:hover {
   width: 100px;
 }
 .logo img {
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 70px;
   border-radius: 40%;
-  margin-top: 10px;
 }
 .icon{
   display: flex;
   color: aliceblue;
-  float: right;
-  margin-bottom: 58px;
+  background-color: #ff0000;
 }
-.menu_menu-1 .bar  {
-margin: 40px;
-margin-right: 450px;
+.icon-shopping{
+  position: relative;
+  z-index: 1;
+}
+.icon-shopping::after{
+  position: absolute;
+  content: "1";
+  top: -10px;
+  color: rgb(255, 255, 255);
+  left: 30px;
+  background-color: #511818;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 9px;
+  z-index: 5;
 }
 .ht {
   display: flex;
@@ -106,7 +124,6 @@ img {
   /* border-radius: 50px; */
   width: 250px;
   height: 200px;
-  margin-left: 22px;
 }
 h5:hover {
   color: red;
@@ -122,17 +139,13 @@ h6:hover {
   grid-gap: 10px; /* Khoảng cách giữa các card */
   
 }
-.bar a{
-  padding-left: 20px;
-  width: 100px;
-}
+
 .infor{
   text-align: center;
   margin-bottom: 20px;
 }
 .slideshow-container {
-  max-width: 100%;
- 
+  width: 100%;
   margin: auto;
 }
 
@@ -152,7 +165,7 @@ h6:hover {
   to {opacity: 1}
 }
 .slideshow-container img{
-  width: 1240px;
+  width: 100%;
   height: 500px;
 }
 /* Định dạng cho biểu tượng người dùng và menu dropdown */
@@ -164,6 +177,7 @@ h6:hover {
 
 /* Ẩn nội dung dropdown */
 .dropdown-content {
+  left: -100px;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -183,6 +197,7 @@ h6:hover {
 /* Hiển thị dropdown khi rê chuột hoặc chạm vào */
 .dropdown:hover .dropdown-content {
   display: block;
+  z-index: 999;
 }
 
 /* Thêm một số hiệu ứng khi rê chuột qua các mục */

@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Log In</title>
     <link rel="stylesheet" href ="dangnhap.css">
 </head>
 <body>
-    <form action="nam" style="background-color: #EE0000; width: 500px; height: 300px;">
-        <h1> ĐĂNG NHẬP </h1>
-        Tên đăng nhập:<input type="text" name="mot" class="mot" placeholder="Nhập tên" id="username" required><br>
-
-        Mật khẩu :<input type="password" name="hai" class="hai" placeholder="Nhập mật khẩu" style="margin-left: 47px; " id="password" required><br>
-        <a class="haimot" href="dangki.html" style="font-size: 10px; margin-left: 290px;"> ĐĂNG KÍ </a><br>
-        <a class="haihai" href="#" style="font-size: 10px;margin-left: 250px;"> QUÊN MẶT KHẨU </a><br>
-        <button type="button" class="ba" onclick="namdz()"> Đăng nhập </button>
+    <form action="nam">
+        <h1> Log In </h1>
+        <input type="text" name="mot" class="input" placeholder="Enter name" id="username" required>
+        <input type="password" name="hai" class="input" placeholder="Enter the password"  id="password" required>
+        <div class="input-phu">
+            <a class="haimot" href="dangki.html"> REGISTER </a>
+            <a class="haihai" href="#"> FORGET YOUR MASK </a>
+        </div>
+        <button type="button" class="ba" onclick="namdz()"> Log In </button>
     </form>
 </body>
 <script>

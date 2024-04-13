@@ -1,26 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    background-image: url("../baicuoikhoa2/tainguyen2/anh_dangki_khoa2.htm");
-    height: 300px;
-    margin-left: 200px;
+    background-image: url("https://khoavang.vn/resources/cache/600x314x1/Hinh-nen-PC-gaming-1680115301.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
 }
-form{
-     text-align: center;
-    margin: 200px;
+form {
+    width: 20%;
+    text-align: center;
+    margin: 100px auto 0px;
     font-size: 20px;
-    color: black;
-    border: 10%;
+    padding: 50px;
+    background-color: rgba(0, 0, 0,0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(240, 240, 240);
 }
-.mot {
-    width: 300px;
+.input {
+    width: 85%;
     height: 20px;
+    font-size: 16px;
+    border: none;
+    background: transparent;
+    border-bottom: 2.5px solid rgb(165, 165, 165);
+    outline: none;
+    margin: 20px 0px;
+    color: white;
 }
-.hai { 
-    width: 300px;
-    height: 20px;
+input::placeholder{
+    color: rgb(183, 183, 183);
+    margin-left: 10px;
+}
+.input-phu{
+    display: flex;
+    margin: 5px 25px 40px;
+    justify-content: space-between;
+}
+.input-phu a{
+    font-size: 10px;
+    color: white;
+
 }
 .ba {
     width: 100px;
     height: 25px;
+    outline: none;
+    border: none;
 }
 .ba:hover {
     cursor: pointer;
@@ -30,16 +58,6 @@ h1 {
     font-size: 30px;
     text-align: center;
     margin-bottom: 50px;
-
-}
-input {
-    margin: 15px;
-}
-form a{
-    color: black;
-   
-    text-decoration: none;
-    margin-top: 10px;
-    font-size: 20px;
+    color: white;
 }
 

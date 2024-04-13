@@ -1,19 +1,20 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('../baicuoikhoa2/tainguyen2/anh_dangki_khoa2.htm'); 
+    background-image: url('https://cdn.tgdd.vn/Files/2020/06/08/1261696/moi-tai-bo-hinh-nen-asus-rog-2020-moi-nhat-5_800x450.jpg'); 
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-size: cover;
 }
 
 form {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color:  rgb(113 87 87 / 50%);
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgb(160 114 207);
     width: 300px; /* Adjust the width as needed */
 
     
