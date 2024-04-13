@@ -10,5 +10,5 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}    
   slides[slideIndex-1].style.display = "block";  
-  setTimeout(showSlides, 1000); // Thay đổi hình sau mỗi 2 giây
+  setTimeout(showSlides, 1500); // Thay đổi hình sau mỗi 2 giây
 }
