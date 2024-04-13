@@ -16,8 +16,8 @@ form {
     border-radius: 5px;
     box-shadow: 0 0 10px rgb(160 114 207);
     width: 300px; /* Adjust the width as needed */
-
-    
+    margin: 50px auto 0px;
+    font-size: 20px;
 }
 
 label {
@@ -28,8 +28,9 @@ label {
 input {
     width: 100%;
     padding: 8px;
-    margin-bottom: 16px;
+    margin: 20px 0px;
     box-sizing: border-box;
+    border: none;
 }
 
 select {
